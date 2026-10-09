@@ -1,0 +1,7 @@
+$ npm run typecheck
+
+> hookbook@1.0.0 typecheck
+> tsc --noEmit
+
+
+Exit code: 0

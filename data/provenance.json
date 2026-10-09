@@ -1,0 +1,8 @@
+{
+  "retrievedAt": "2026-10-09",
+  "allowlistCommit": "f5a81893b812b6745b1f8b7fa3a55a714cb9d89b",
+  "hooklistCommit": "a15ee379aebc9c4f580a3ac0eb795f8fc9388500",
+  "allowlistPath": "lib/util/hooksAddressesAllowlist.ts",
+  "scope": "Every unique non-zero chain/address pair in HOOKS_ADDRESSES_ALLOWLIST, including Sepolia. Automatically eligible hooks not explicitly listed are outside this snapshot. A duplicate BVCC Base entry is deduplicated; unreferenced exported constants are excluded.",
+  "verification": "Source status is the verifiedSource field from the exact chain/address match in Uniswap/hooklist. It is not an independent audit or a live verification. Missing metadata is reported as null (Not recorded)."
+}

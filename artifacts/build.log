@@ -1,0 +1,19 @@
+$ npm run build
+
+> hookbook@1.0.0 build
+> vite build
+
+vite v8.3.4 building client environment for production...
+transforming...
+✓ 1905 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                                             0.94 kB │ gzip:  0.54 kB
+dist/assets/dm-sans-latin-ext-wght-normal-BOFOeGcA.woff2   18.22 kB
+dist/assets/dm-sans-latin-wght-normal-Xz1IZZA0.woff2       36.93 kB
+dist/assets/index-B1GLbOGb.css                             29.82 kB │ gzip:  6.43 kB
+dist/assets/index-Dmz6-38I.js                             364.76 kB │ gzip: 97.67 kB
+
+✓ built in 597ms
+
+Exit code: 0

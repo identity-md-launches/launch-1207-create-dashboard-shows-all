@@ -1,0 +1,30 @@
+$ npm run test:browser
+
+> hookbook@1.0.0 test:browser
+> playwright test
+
+[WebServer] (node:124) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 14 tests using 1 worker
+
+(node:136) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   1 tests/dashboard.spec.ts:5:1 › loads the production export at a subpath without resource or console errors (1.0s)
+  ✓   2 tests/dashboard.spec.ts:34:1 › search, combined filters, empty recovery, pagination, sort, and URL reload (1.6s)
+  ✓   3 tests/dashboard.spec.ts:82:1 › bookmark, saved collection, persistence, remove, and saved empty state (1.3s)
+  ✓   4 tests/dashboard.spec.ts:116:1 › details, full address, copy, source destination, Escape, and focus return (1.3s)
+  ✓   5 tests/dashboard.spec.ts:158:1 › CSV export contains the full filtered set beyond the current page (804ms)
+  ✓   6 tests/dashboard.spec.ts:172:1 › pagination reaches all 117 entries exactly once, including the final page (1.6s)
+  ✓   7 tests/dashboard.spec.ts:203:1 › keyboard flow and modal focus containment (1.2s)
+  ✓   8 tests/dashboard.spec.ts:230:1 › storage failures are recoverable and do not prevent saving in memory (1.2s)
+  ✓   9 tests/dashboard.spec.ts:252:3 › responsive layout and accessibility at 1440px (2.8s)
+  ✓  10 tests/dashboard.spec.ts:252:3 › responsive layout and accessibility at 1024px (2.3s)
+  ✓  11 tests/dashboard.spec.ts:252:3 › responsive layout and accessibility at 768px (2.2s)
+  ✓  12 tests/dashboard.spec.ts:252:3 › responsive layout and accessibility at 390px (2.2s)
+  ✓  13 tests/dashboard.spec.ts:252:3 › responsive layout and accessibility at 320px (2.1s)
+  ✓  14 tests/dashboard.spec.ts:277:1 › dialog, empty state, and reduced motion accessibility (2.7s)
+
+  14 passed (27.0s)
+
+Exit code: 0
